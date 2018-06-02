@@ -1,2 +1,2 @@
 # ImpactSummitHackathonProject
-Visualize various crypto phenomena in real life with MapBox 
+Something involving a wireframe, a DAO, and medicine? 
