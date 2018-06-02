@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Salary Calc</title>
+    <link rel="stylesheet" type="text/css" href="styleWallet.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+    <div id='app'>
+        <vue-container>
+            <a class='textPad' href="main.html">Home</a>
+            <a class='textPad' href="claims.html">Claims</a>
+            <a class='textPad' href="validators.html">Dao Pool</a>
+            <a class='textPad' href="wallet.html">Wallet</a>
+        </vue-container>
+        <form class="ui form"> 
+            <div class="field"> <label>Date</label> <input type="date" name="" placeholder="01/03/2009"> </div>
+            <div class="field"> <label>New Claim</label> <textarea placeholder="Insert explanation for claim"></textarea></div>
+
+        </div>
+        <h4 class="ui dividing header">Confirmation</h4>
+            <div class="field">
+                <div class="ui submit button"><i class="ethereum icon"></i>Verify Wallet</div>
+            </div>
+
+        <div class="ui submit button">Submit</div>    
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src='walIndex.js'></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>    
+</body>
+</html>
