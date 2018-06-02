@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Smith",
+      "time": "3:00PM"
+    },
+    {
+      "id": 2,
+      "first_name": "James",
+      "last_name": "Bond",
+      "time": "11:45 AM"
+    }
+  ]

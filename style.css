@@ -1,0 +1,23 @@
+* { 
+    color: #444;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.vue-container {
+    text-align: center; 
+}
+
+.textPad {
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+
+.id-container {
+    width: 500px; 
+    margin: 0 auto; 
+}
+
+.feed-container {
+    float: right;
+    margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Salary Calc</title>
+    <link rel="stylesheet" type="text/css" href="styleClaim.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+    <div id='app'>
+        <vue-container>
+            <a class='textPad' href="main.html">Home</a>
+            <a class='textPad' href="claims.html">Claims</a>
+            <a class='textPad' href="validators.html">Dao Pool</a>
+        </vue-container>
+        <claim-feed>
+            <p slot="head"> <i class="fas fa-syringe"></i> Medical Subscription Warning </p>
+            <p slot="info">  Need to updated your subscription to our service! </p>
+        </claim-feed>
+        <claim-feed>
+            <p slot="head"> <i class="fas fa-exclamation"></i> Surgery Notification </p>
+            <p slot="info"> Reminder in 6 weeks you have a appointment for surgery </p>
+        </claim-feed>
+    </div>   
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src='claimIndex.js'></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>    
+</body>
+</html>

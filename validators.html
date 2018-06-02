@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Salary Calc</title>
+    <link rel="stylesheet" type="text/css" href="styleVal.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+    <div id='app'>
+        <vue-container>
+            <a class='textPad' href="main.html">Home</a>
+            <a class='textPad' href="claims.html">Claims</a>
+            <a class='textPad' href="validators.html">DAO Pool</a>
+        </vue-container>
+        <val-group>
+            <div slot="A">  
+                <vue-individual>
+                    <img slot= "image" src="assets/FabrizoFace.jpg"> 
+                    <p slot="name"><i class="fas fa-users"></i>  Don Fabrizo</p>
+                    <span slot="data"> Joined 6/1/2018 </span>
+                    <p slot="info"> Lorem Ipusm ll Gatapardo </p>
+                </vue-individual> 
+            </div>
+            <div slot="B">  
+                <vue-individual>
+                    <img slot = "image" src="assets/Schmitt.jpg">
+                    <p slot="name"> <i class="fas fa-users"></i>  Carl Schmitt </p>
+                    <span slot="data"> Joined 6/1/2018 </span>
+                    <p slot="info"> Lorem Ipusm sovereignty </p>
+                </vue-individual> 
+            </div>
+            <div slot="C">  
+                <vue-individual>
+                    <img slot = "image" src="assets/The_Cracked_Cardinal.jpeg">
+                    <p slot="name"> <i class="fas fa-users"></i>  George Condo </p>
+                    <span slot="data"> Joined 6/1/2018 </span>
+                    <p slot="info"> Lorem Ipsum Is this a Kanye refernce? </p>
+                </vue-individual> 
+            </div>
+            <div slot="D">
+                <vue-individual>
+                    <img slot = "image" src ="assets/GWhospital.jpg">
+                    <p slot="name" data-content="Institutional Member of Pool"> <i class="fas fa-hospital"></i>GW Hospital</p>
+                    <span slot="data"> Founded in 1824/ Joined 6/1/2018</span>
+                    <p slot="info"> Of course I would choose my school for the wireframe example.</p>  
+                </vue-individual>    
+            </div>
+        </val-group>
+    </div>   
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src='valIndex.js'></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>    
+</body>
+</html>
