@@ -7,18 +7,13 @@
     background: #d3ebd5; 
 }
 
-.vue-out {
-    float: right;
-}
-
-
-.claimFeed {
-    margin: 0 auto; 
+.vue-container {
+    text-align: center; 
     background: #80bfb7;
 }
 
-.vue-container {
-    text-align: center; 
+.vue-out {
+    float: right;
 }
 
 .textPad {

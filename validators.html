@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Vue Salary Calc</title>
     <link rel="stylesheet" type="text/css" href="styleVal.css">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
@@ -14,6 +14,7 @@
             <a class='textPad' href="main.html">Home</a>
             <a class='textPad' href="claims.html">Claims</a>
             <a class='textPad' href="validators.html">DAO Pool</a>
+            <a class='textPad' href="wallet.html">Wallet</a>
         </vue-container>
         <val-group>
             <div slot="A">  
@@ -47,6 +48,14 @@
                     <span slot="data"> Founded in 1824/ Joined 6/1/2018</span>
                     <p slot="info"> Of course I would choose my school for the wireframe example.</p>  
                 </vue-individual>    
+            </div>
+            <div slot="E">
+                <vue-individual>
+                        <img slot = "image" src ="assets/Lloyds.jpg">
+                        <p slot="name" data-content="Institutional Member of Pool"> <i class="pen square icon"></i></i>Generic Underwriter</p>
+                        <span slot="data"> Joined 6/1/2018</span>
+                        <p slot="info"> I am just using Lloyds as a example of a underwriter. SAMPLE PICTURE </p>  
+                </vue-individual> 
             </div>
         </val-group>
     </div>   

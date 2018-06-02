@@ -1,9 +1,13 @@
 Vue.component('vue-container', {
     template: '<div class="ui container raised segment vue-container">\
                 <div class="ui icon button" data-content="Pool Member"><i class="fas fa-users"></i></i></div>\
-                <div class="ui icon button" data-content="Institutional Member of Pool"><i class="fas fa-hospital"></div>\
+                <div class="ui icon button" data-content="Institutional Member of Pool"><i class="fas fa-hospital"></i></div>\
                 <div class="ui icon button" data-content="Doctoral Member of Pool"><i class="fas fa-user-md"></i></div>\
-                <slot></slot></div>'
+                <div class="ui icon button" data-content="User"><i class="user icon"></i></i></div>\
+                <slot></slot>\
+                <div class="ui labeled button vue-out" tabindex="0"><a class="ui basic label"> Log Out </a></div>\
+                <div class="ui labeled button vue-out" tabindex="0"><a href="form.html" class="ui basic label"> Submit a Claim </a></div>\
+                </div>'
 
 });
 
@@ -22,6 +26,7 @@ Vue.component('val-group', {
                     <div class="column"><slot name= "B"> </slot></div>\
                     <div class="column"><slot name= "C"> </slot></div>\
                     <div class="column"><slot name= "D"> </slot></div>\
+                    <div class="column"><slot name= "E"> </slot></div>\
                     </div>'
 })
 

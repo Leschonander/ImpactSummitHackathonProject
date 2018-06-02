@@ -1,11 +1,16 @@
 Vue.component('vue-container', {
-    template: '<div class="ui container raised segment vue-container"><slot> </slot></div>'
+    template: '<div class="ui container raised segment vue-container">\
+                <div class="ui icon button" data-content="User"><i class="user icon"></i></i></div>\
+                <slot></slot>\
+                <div class="ui labeled button vue-out" tabindex="0"><a class="ui basic label"> Log Out </a></div>\
+                <div class="ui labeled button vue-out" tabindex="0"><a href="form.html" class="ui basic label"> Submit a Claim </a></div>\
+                </div>'
 
 });
 
 Vue.component('id-card', {
     template: '<div class="ui secondary pointing menu id-container"> <a class= "item active"> ID </a>\
-    <a class= "item"> Medications </a>\
+    <a class= "item"> Insurances </a>\
     <div class="ui segment"><slot> </slot></div> </div>'
 });
 
@@ -18,7 +23,7 @@ Vue.component('med-news-feed', {
                 </div></div>'
 })
 // Can use <i class="fas fa-briefcase-medical"></i> into Vue Components 
- 
+
 
 let vm1 = new Vue({
     el: '#app',
@@ -27,18 +32,6 @@ let vm1 = new Vue({
     }
 });
 
-/*
-        <med-news-feed>
-            <p slot="date">1 Week ago</p>
-            <p slot="info">Lorem ipsum dolor sit amet</p>
-        </med-news-feed>
-
-
-                <med-news-feed>
-            <p slot="date">Yesterday: &nbsp;&nbsp;</p>
-            <p slot="info">Fizzbuzz FizzBuzz Fizzbuzz FizzBuzz</p>
-        </med-news-feed>
-*/
 
 
 

@@ -1,7 +1,16 @@
 * { 
     color: #444;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
 }
+
+#app {
+    background: #d3ebd5; 
+}
+
+.vue-out {
+    float: right;
+}
+
 
 .vue-container {
     text-align: center; 
